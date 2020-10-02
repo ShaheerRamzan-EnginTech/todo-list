@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Todo List</title>
+</head>
+<body onload="loadData(-1)">
+    <div class="main-div">
+        <div class="task-header">
+            <label>Add Task:
+            <input type="text" name="task" id="text-field">
+        </label>
+        <button class="button" onclick="saveData()">ADD</button>
+        </div>
+        <div class="tasks-container" id="tasks">
+
+        </div>
+    </div>
+
+</body>
+<script type="application/javascript" src="index.js"></script>
+</html>
